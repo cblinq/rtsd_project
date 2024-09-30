@@ -7,7 +7,7 @@ The goal of the project is to find out the response time of several performance 
 
 There are two main parts of this project: 
 
-The FreeRTOS part, which uses the high performance counter provided by the header file windows.h to accurately measure the mentioned metrics above.
+The [FreeRTOS](https://github.com/FreeRTOS) part, which uses the high performance counter provided by the header file windows.h to accurately measure the mentioned metrics above.
 
 
 The Python part, which are just basic numpy arrays, to provide fast and accurate results from the measured response times.
